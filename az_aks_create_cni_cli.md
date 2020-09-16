@@ -32,7 +32,9 @@ VERSION=$(az aks get-versions \
 
 ## Variável para nome do Cluster AKS
 
+```
 AKS_CLUSTER_NAME=aks-cni-cli-$RANDOM
+```
 
 ## Exibir o nome guardado nessa variável que contem o nome do Cluster que deve ser único.
 
