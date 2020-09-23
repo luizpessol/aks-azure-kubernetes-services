@@ -10,7 +10,7 @@ Obs. Veja a última versão
 1. Pode usar kubeconfig file;
 2. Criar SA token.
 
-## RBAC, copie e cole o comando abaixo em seu terminal:
+## Com o cód abaixo vamos criar a service account e gerar um token:
 
 ```
 cat > ./dashboard-rbac.yml <<EOF
