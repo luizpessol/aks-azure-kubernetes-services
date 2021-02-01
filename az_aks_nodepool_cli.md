@@ -1,6 +1,6 @@
 # Gerenciamento dos node pools do Cluster (AKS) Azure Kubernetes Services
 
-## Exibir configurações do Node pool
+## Exibir configurações do Node pools
 
 ```
 az aks nodepool show \
@@ -9,7 +9,7 @@ az aks nodepool show \
 --name nodepool1
 ```
 
-## Adicionar um novo Node pool
+## Adicionar um novo Node pools
 
 ```
 az aks nodepool add \
@@ -23,7 +23,7 @@ az aks nodepool add \
     --mode System
 ```
 
-## Atualizar um Node pool
+## Atualizar um Node pools
 
 ```
 az aks nodepool update \
@@ -33,7 +33,7 @@ az aks nodepool update \
 --mode System
 ```
 
-## Deletar um Node pool User ou System
+## Deletar um Node pools User ou System
 
 ```
 az aks nodepool delete \
@@ -42,7 +42,7 @@ az aks nodepool delete \
 --name user
 ```
 
-## Adicionar Node pool de VMs Spot
+## Adicionar Node pools de VMs Spot
 
 ```
 az aks nodepool add \
